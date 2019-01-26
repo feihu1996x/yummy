@@ -1,6 +1,6 @@
 yummy
 ===========
- > a food reservation system with a backend management system and a fronten wechat app
+ > a food reservation system with a backend management system and a frontend wechat app
  
 ## Build And Setup
 
