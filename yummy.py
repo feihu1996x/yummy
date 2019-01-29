@@ -37,6 +37,12 @@ def hello():
     return msg
 
 
+@app.errorhandler(404)
+def page_not_found(error):
+    app.logger.error(error)
+    return "This page does not exist"
+
+
 app.register_blueprint(route_yummy)
 
 
